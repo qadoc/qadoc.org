@@ -17,26 +17,51 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
+
+        /* 背景设置 */
         body {
             background: #f8f8f8 url("assets/image/email-pattern.png");
         }
 
+        /* 全局设置 */
         #main {
-            padding-top: 2em;
+            padding-top: 1em;
         }
 
+        #main a{
+            text-decoration: none;
+        }
+
+        /* 头部通栏设置 */
+
+        #header{
+            padding-right: 3em;
+        }
+
+        #header ul{
+            float: right;
+            width:100%;
+            margin:0;
+        }
+
+        #header ul a:hover{
+            border-bottom: 3px solid rgba(0,123,255,0.5);
+        }
+
+        #header ul a{
+            border-bottom: 3px solid #f4f4f4;
+            float: right;
+            color: #333333;
+        }
+
+        /* 内容区 */
         .svgIcon {
             width: 4em;
             /*filter: invert(0.4) sepia(1) saturate(10) hue-rotate(130deg);*/
         }
 
         .content {
-            /*width: 80%;*/
             padding: 0em 3em;
-        }
-
-        .detail a{
-            text-decoration: none;
         }
 
         .detail > div h5 {
@@ -55,7 +80,6 @@
 
         .detail > div li.enable a:hover {
             color: #3d83ff;
-            font-size: 1.1em;
         }
 
         .detail > div li.disable a {
@@ -66,8 +90,9 @@
         .road {
             font-size: 0.8em;
             padding-bottom: 0.9em;
-            /*font-style: revert;*/
         }
+
+        /* 底部通栏设置 */
 
         #footer{
             background: #162332;
@@ -99,6 +124,15 @@
 </head>
 <body>
 <div id="main">
+
+    <!-- 通头 -->
+    <div id="header" class="">
+        <ul class="list-unstyled">
+            <li><a href="https://github.com/qadoc/qadoc.org/issues" target="_blank">建议&反馈</a></li>
+        </ul>
+    </div>
+
+    <!--  内容区  -->
     <div class="container">
         <div class="" align="center">
             <h1 class="name"><b>QAdoc</b></h1>
@@ -127,6 +161,8 @@
                                               target="_blank">测试工作者导航</a></li>
                         <li class="enable"><a href="https://pan.baidu.com/s/1_9guABX_vaXasajr7sr1Eg"
                                               target="_blank">百度网盘</a></li>
+                        <li class="enable"><a href="https://github.com/qadoc/faq/issues"
+                                              target="_blank">FAQ</a></li>
                         <li class="enable"><a href="https://qadoc.org/practice.html"
                                               target="_blank">练习场</a></li>
                         <li class="enable"><a href="http://nav.qadoc.org"
