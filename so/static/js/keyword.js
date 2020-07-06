@@ -140,6 +140,44 @@ $(function () {
       ]
     },
     {
+      "id":"video",
+      "group":{
+        "title": "视频",
+      },
+      "sites":[
+        {
+          "name":"哔哩哔哩",
+          "url":"https://www.bilibili.com/",
+          "searchTemplate":"https://search.bilibili.com/all?keyword={{keyword}}"
+        },
+        {
+          "name":"Youtube",
+          "url":"https://www.youtube.com/",
+          "searchTemplate":"https://www.youtube.com/results?search_query={{keyword}}"
+        },
+        {
+          "name":"今日头条",
+          "url":"https://www.toutiao.com/",
+          "searchTemplate":"https://www.toutiao.com/search/?keyword={{keyword}}"
+        },
+        {
+          "name":"优酷",
+          "url":"https://www.youku.com/",
+          "searchTemplate":"https://so.youku.com/search_video/q_{{keyword}}"
+        },
+        {
+          "name":"爱奇艺",
+          "url":"https://www.iqiyi.com/",
+          "searchTemplate":"https://so.iqiyi.com/so/q_{{keyword}}"
+        },
+        {
+          "name":"腾讯视频",
+          "url":"https://v.qq.com/",
+          "searchTemplate":"https://v.qq.com/x/search/?q={{keyword}}"
+        }
+      ]
+    },
+    {
       "id":"ebook",
       "group":{
         "title": "电子书",
@@ -188,6 +226,52 @@ $(function () {
       ]
     },
     {
+      "id":"other",
+      "group":{
+        "title": "代码&专利",
+      },
+      "sites":[
+        {
+          "name":"GitHub",
+          "url":"https://github.com/",
+          "searchTemplate":"https://github.com/search?q={{keyword}}"
+        },
+        {
+          "name":"SooPAT",
+          "url":"http://www.soopat.com/",
+          "searchTemplate":"http://www.soopat.com/Home/Result?SearchWord={{keyword}}&FMZL=Y&SYXX=Y&WGZL=Y&FMSQ=Y"
+        }
+      ]
+    },
+    {
+      "id":"network_disk",
+      "group":{
+        "title": "网盘搜索",
+      },
+      "sites":[
+        {
+          "name":"云盘精灵",
+          "url":"https://www.yunpanjingling.com/",
+          "searchTemplate":"https://www.yunpanjingling.com/search/{{keyword}}"
+        },
+        {
+          "name":"大力盘搜索",
+          "url":"https://www.dalipan.com/",
+          "searchTemplate":"https://www.dalipan.com/search?keyword={{keyword}}"
+        },
+        {
+          "name":"罗马盘",
+          "url":"https://www.luomapan.com/",
+          "searchTemplate":"https://www.luomapan.com/search?keyword={{keyword}}"
+        },
+        {
+          "name":"小可搜搜",
+          "url":"https://www.xiaokesoso.com/",
+          "searchTemplate":"https://www.xiaokesoso.com/s/search?q={{keyword}}"
+        }
+      ]
+    },
+    {
       "id":"edu",
       "group":{
         "title": "教育网站",
@@ -227,24 +311,6 @@ $(function () {
           "name":"极客学院",
           "url":"https://www.jikexueyuan.com/",
           "searchTemplate":"https://search.jikexueyuan.com/course/?q={{keyword}}"
-        }
-      ]
-    },
-    {
-      "id":"other",
-      "group":{
-        "title": "代码&专利",
-      },
-      "sites":[
-        {
-          "name":"GitHub",
-          "url":"https://github.com/",
-          "searchTemplate":"https://github.com/search?q={{keyword}}"
-        },
-        {
-          "name":"SooPAT",
-          "url":"http://www.soopat.com/",
-          "searchTemplate":"http://www.soopat.com/Home/Result?SearchWord={{keyword}}&FMZL=Y&SYXX=Y&WGZL=Y&FMSQ=Y"
         }
       ]
     }
