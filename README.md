@@ -1,2 +1,2 @@
 
-QAdoc 主站点 qadoc.org 源码。
+QAdoc 主站点 qadoc.cn 源码。
